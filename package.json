@@ -1,0 +1,21 @@
+{
+  "name": "keyue_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --build && node ./dist/app.js",
+    "watch": "nodemon --ext js,ts --exec npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.4",
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.4"
+  }
+}
