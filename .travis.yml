@@ -1,10 +1,10 @@
 language: node_js
 node_js:
   - v12.18.3
-# *默认一个分支可以忽略此配置--监视github仓库中的master分支，分支出现变化就执行build
-# branches:
-#   only:
-#     - master # 只有在master改变会触发
+branches:
+  # *只有在master改变会触发
+  only:
+    - master
 install: npm install
 script:
   # *测试功能脚本
